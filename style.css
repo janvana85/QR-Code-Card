@@ -1,0 +1,52 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --lightgrey:hsl(212, 45%, 89%);
+    --grayblue:hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+/* Utility Classes*/
+.fw-bold{
+    font-weight: var(--fw-bold);
+}
+
+.fw-regular{
+    font-weight: var(--fw-regular);
+}
+
+body{
+    background-color: #d5e1ef;
+    font-size: 10px; 
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10 5 2px black;
+    
+}
+
+.img-qrcode{
+    margin-top: 1rem;
+    width: 16rem;
+    aspect-ratio: 1;
+    border-radius: 10px;
+}
+
+.content{
+    padding-bottom: 1.3rem;
+    text-align: center;
+    margin-inline: 15px;
+}
+
+p{
+    font-size: 15px; 
+    opacity: 0.5; 
+} 
